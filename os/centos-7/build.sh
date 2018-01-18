@@ -6,7 +6,7 @@ BUILDMARK="$(date +%Y-%m-%d-%H%M)"
 IMG_NAME="$BASENAME-$BUILDMARK"
 TMP_IMG_NAME="$BASENAME-tmp-$BUILDMARK"
 
-IMG=CentOS-7-x86_64-GenericCloud.qcow2
+IMG=CentOS-7-x86_64-GenericCloud-1707.qcow2
 IMG_URL=http://cloud.centos.org/centos/7/images/$IMG
 TMP_DIR=centos-guest
 
