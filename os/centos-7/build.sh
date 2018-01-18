@@ -37,6 +37,9 @@ sed -i "s/name: centos/name: cloud/" $TMP_DIR/etc/cloud/cloud.cfg
 echo "sed -i \"s/- resizefs/- resolv-conf/\" $TMP_DIR/etc/cloud/cloud.cfg"
 sed -i "s/- resizefs/- resolv-conf/" $TMP_DIR/etc/cloud/cloud.cfg
 
+echo "bootcmd:" >>$TMP_DIR/etc/cloud/cloud.cfg
+echo " - xfs_growfs /" >>$TMP_DIR/etc/cloud/cloud.cfg
+
 if [ ! -d "$TMP_DIR/etc/cloud/cloud.cfg.d" ]; then
     mkdir $TMP_DIR/etc/cloud/cloud.cfg.d
 fi
