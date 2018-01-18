@@ -54,4 +54,6 @@
         regexp='UUID=.*?\s'
         replace='/dev/vda1 '
 
+    - name: Disabling kdump Service
+      service: "name=kdump state=stopped enabled=no"
 
