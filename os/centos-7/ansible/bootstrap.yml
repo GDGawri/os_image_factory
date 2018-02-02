@@ -56,4 +56,8 @@
 
     - name: Disabling kdump Service
       service: "name=kdump state=stopped enabled=no"
+    
+    - name: Clearing history and Logs
+      shell: history -c; cat /dev/null > /var/log/messages; cat /dev/null > /var/log/audit/audit.log
+     
 
