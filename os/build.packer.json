@@ -47,6 +47,9 @@
                 "sudo rm -rf /var/log/cloud-init*",
                 "sudo rm -rf /home/cloud/known_hosts/",
                 "sudo rm -rf /home/cloud/.ansible",
+                "sudo rm -rf /root/.ssh/authorized_keys",
+                "sudo rm -rf /var/log/yum.log",
+                "sudo rm -rf /var/log/dmesg*,
                 "sudo sync"
             ]
         }
