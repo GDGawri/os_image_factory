@@ -34,8 +34,6 @@
                 "sudo rm -rf /var/log/dmes*",
                 "sudo rm -rf /var/log/mess*",
                 "sudo rm -rf /var/log/audit/*.log",
-                "sudo cat /dev/null > /var/log/wtmp",
-                "sudo cat /dev/null > /var/log/btmp",
                 "sudo sync"
             ]
         },
