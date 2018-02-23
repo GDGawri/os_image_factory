@@ -1,12 +1,12 @@
 #!/bin/sh
 source ~/.profile
-BASENAME="Fedora-24"
+BASENAME="Fedora-27"
 BUILDMARK="$(date +%Y-%m-%d-%H%M)"
 IMG_NAME="$BASENAME-$BUILDMARK"
 TMP_IMG_NAME="$BASENAME-tmp-$BUILDMARK"
 
-IMG=Fedora-Cloud-Base-24-1.2.x86_64.qcow2
-IMG_URL=http://ftp.lip6.fr/ftp/pub/linux/distributions/fedora/releases/24/CloudImages/x86_64/images/$IMG
+IMG=Fedora-Cloud-Base-27-1.6.x86_64.qcow2
+IMG_URL=http://ftp.lip6.fr/ftp/pub/linux/distributions/fedora/releases/27/CloudImages/x86_64/images/$IMG
 
 TMP_DIR=fedora-guest
 
