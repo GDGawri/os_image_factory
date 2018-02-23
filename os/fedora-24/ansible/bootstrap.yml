@@ -36,7 +36,7 @@
 
 
     - name: install linux-rootfs-resize
-      dnf: name=ftp://195.220.108.108/linux/fedora/linux/releases/24/Everything/i386/os/Packages/r/rootfs-resize-2.0-7.fc24.noarch.rpm state=present
+      dnf: name=ftp://195.220.108.108/linux/fedora/linux/releases/27/Everything/x86_64/os/Packages/r/rootfs-resize-2.0-9.fc27.noarch.rpm state=present
 
 
     - name: /etc/fstab contains /dev/vda1 rather than UUID
