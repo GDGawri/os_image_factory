@@ -49,7 +49,7 @@
                 "sudo rm -rf /home/cloud/.ansible",
                 "sudo rm -rf /root/.ssh/authorized_keys",
                 "sudo rm -rf /var/log/yum.log",
-                "sudo rm -rf /var/log/dmes*,
+                "sudo rm -rf /var/log/dmes*",
                 "sudo rm -rf /var/log/mess*",
                 "sudo rm -rf /var/log/cloud-init*",
                 "sudo sync"
